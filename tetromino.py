@@ -230,7 +230,7 @@ def runGame():
         for event in pygame.event.get():  # event handling loop
             if event.type == KEYUP:
                 if event.key == K_p:
-                    # Pausing the game
+                    # pausing
                     DISPLAYSURF.fill(BGCOLOR)
                     pygame.mixer.music.pause()
                     showTextScreen('paused') 
